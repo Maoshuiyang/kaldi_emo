@@ -1,0 +1,13 @@
+# nnet-get-egs --left-context=4 --right-context=4 "ark,s,cs:utils/filter_scp.pl exp/tri4_nnet/train_subset_uttlist data/train/feats.scp | apply-cmvn  --utt2spk=ark:data/train/utt2spk scp:data/train/cmvn.scp scp:- ark:- |" "ark,s,cs:gunzip -c exp/tri4_nnet/ali_special.gz | ali-to-pdf exp/tri1_ali/final.mdl ark:- ark:- | ali-to-post ark:- ark:- |" ark:exp/tri4_nnet/egs/train_subset_all.egs 
+# Started at Fri Mar 15 02:38:16 HKT 2019
+#
+nnet-get-egs --left-context=4 --right-context=4 'ark,s,cs:utils/filter_scp.pl exp/tri4_nnet/train_subset_uttlist data/train/feats.scp | apply-cmvn  --utt2spk=ark:data/train/utt2spk scp:data/train/cmvn.scp scp:- ark:- |' 'ark,s,cs:gunzip -c exp/tri4_nnet/ali_special.gz | ali-to-pdf exp/tri1_ali/final.mdl ark:- ark:- | ali-to-post ark:- ark:- |' ark:exp/tri4_nnet/egs/train_subset_all.egs 
+apply-cmvn --utt2spk=ark:data/train/utt2spk scp:data/train/cmvn.scp scp:- ark:- 
+ali-to-pdf exp/tri1_ali/final.mdl ark:- ark:- 
+ali-to-post ark:- ark:- 
+LOG (ali-to-pdf[5.5.245~1-9c875]:main():ali-to-pdf.cc:68) Converted 336 alignments to pdf sequences.
+LOG (apply-cmvn[5.5.245~1-9c875]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 36 utterances, errors on 0
+LOG (ali-to-post[5.5.245~1-9c875]:main():ali-to-post.cc:73) Converted 336 alignments.
+LOG (nnet-get-egs[5.5.245~1-9c875]:main():nnet-get-egs.cc:174) Finished generating examples, successfully processed 36 feature files, wrote 10307 examples,  with 10307 egs in total; 0 files had errors.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Mar 15 02:38:16 HKT 2019, elapsed time 0 seconds

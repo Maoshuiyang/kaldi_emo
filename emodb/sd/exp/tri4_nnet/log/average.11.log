@@ -1,0 +1,9 @@
+# nnet-am-average exp/tri4_nnet/12.1.mdl - | nnet-am-copy --learning-rates=0.00299255573947769:0.00149627786973885:0.00149627786973885 - exp/tri4_nnet/12.mdl 
+# Started at Fri Mar 15 02:38:31 HKT 2019
+#
+nnet-am-average exp/tri4_nnet/12.1.mdl - 
+nnet-am-copy --learning-rates=0.00299255573947769:0.00149627786973885:0.00149627786973885 - exp/tri4_nnet/12.mdl 
+LOG (nnet-am-average[5.5.245~1-9c875]:main():nnet-am-average.cc:252) Averaged parameters of 1 neural nets, and wrote to -
+LOG (nnet-am-copy[5.5.245~1-9c875]:main():nnet-am-copy.cc:207) Copied neural net from - to exp/tri4_nnet/12.mdl
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Mar 15 02:38:31 HKT 2019, elapsed time 0 seconds

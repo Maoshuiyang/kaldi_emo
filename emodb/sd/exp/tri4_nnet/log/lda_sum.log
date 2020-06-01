@@ -1,0 +1,1 @@
+sum-lda-accs exp/tri4_nnet/lda.acc exp/tri4_nnet/lda.1.acc 

@@ -1,0 +1,4 @@
+nnet-am-fix exp/tri4_nnet/4.mdl exp/tri4_nnet/4.mdl 
+LOG (nnet-am-fix[5.5.245~1-9c875]:FixNnet():nnet-fix.cc:101) For layer 2, decreased parameters for 0 indexes, and increased them for 128 out of a total of 300
+LOG (nnet-am-fix[5.5.245~1-9c875]:FixNnet():nnet-fix.cc:101) For layer 4, decreased parameters for 0 indexes, and increased them for 1 out of a total of 300
+LOG (nnet-am-fix[5.5.245~1-9c875]:main():nnet-am-fix.cc:81) Copied neural net from exp/tri4_nnet/4.mdl to exp/tri4_nnet/4.mdl

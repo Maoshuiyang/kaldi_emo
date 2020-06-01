@@ -1,0 +1,13 @@
+# gunzip -c exp/tri4_nnet/decode_test/depth_stats_tmp.*.gz | steps/diagnostic/analyze_lattice_depth_stats.py exp/tri1/graph 
+# Started at Fri Mar 15 02:39:12 HKT 2019
+#
+The total amount of data analyzed assuming 100 frames per second is 0.1 hours
+Nonsilence phones as a group account for 100.0% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.1
+Overall, lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.1
+Phone N accounts for 36.6% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.1
+Phone W accounts for 34.9% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone T accounts for 17.5% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone L accounts for 9.8% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.1
+Phone F accounts for 1.2% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Mar 15 02:39:12 HKT 2019, elapsed time 0 seconds

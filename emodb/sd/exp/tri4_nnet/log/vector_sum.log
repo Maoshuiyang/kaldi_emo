@@ -1,0 +1,7 @@
+# vector-sum exp/tri4_nnet/post.1.vec exp/tri4_nnet/post.vec 
+# Started at Fri Mar 15 02:39:08 HKT 2019
+#
+vector-sum exp/tri4_nnet/post.1.vec exp/tri4_nnet/post.vec 
+LOG (vector-sum[5.5.245~1-9c875]:TypeThreeUsage():vector-sum.cc:175) Summed 1 vectors; wrote sum to exp/tri4_nnet/post.vec
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Mar 15 02:39:08 HKT 2019, elapsed time 0 seconds

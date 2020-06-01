@@ -1,0 +1,13 @@
+# nnet-show-progress --use-gpu=no exp/tri4_nnet/3.mdl exp/tri4_nnet/4.mdl ark:exp/tri4_nnet/egs/train_diagnostic.egs 
+# Started at Fri Mar 15 02:38:21 HKT 2019
+#
+nnet-show-progress --use-gpu=no exp/tri4_nnet/3.mdl exp/tri4_nnet/4.mdl ark:exp/tri4_nnet/egs/train_diagnostic.egs 
+LOG (nnet-show-progress[5.5.245~1-9c875]:main():nnet-show-progress.cc:123) At position 0.5, objf per frame is -0.958265
+LOG (nnet-show-progress[5.5.245~1-9c875]:main():nnet-show-progress.cc:134) Total objf change per component is  [ -0.0764469 -0.0962165 -0.371355 ]
+
+LOG (nnet-show-progress[5.5.245~1-9c875]:main():nnet-show-progress.cc:145) Parameter differences per layer are  [ 4.52098 5.50768 3.81571 ]
+
+LOG (nnet-show-progress[5.5.245~1-9c875]:main():nnet-show-progress.cc:153) Relative parameter differences per layer are  [ 0.122126 0.191869 0.320129 ]
+
+# Accounting: time=1 threads=1
+# Ended (code 0) at Fri Mar 15 02:38:22 HKT 2019, elapsed time 1 seconds

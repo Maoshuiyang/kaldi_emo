@@ -1,0 +1,179 @@
+# nnet-latgen-faster --minimize=false --max-active=7000 --min-active=200 --beam=15.0 --lattice-beam=8.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri1/graph/words.txt exp/tri4_nnet/final.mdl exp/tri1/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- |" "ark:|gzip -c > exp/tri4_nnet/decode_test/lat.1.gz" 
+# Started at Fri Mar 15 02:39:10 HKT 2019
+#
+nnet-latgen-faster --minimize=false --max-active=7000 --min-active=200 --beam=15.0 --lattice-beam=8.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp/tri1/graph/words.txt exp/tri4_nnet/final.mdl exp/tri1/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- |' 'ark:|gzip -c > exp/tri4_nnet/decode_test/lat.1.gz' 
+apply-cmvn --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- 
+03a01Fa W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 03a01Fa is -0.863139 over 188 frames.
+03a02Wc W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 03a02Wc is -0.154271 over 148 frames.
+03a07La T 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 03a07La is -0.766416 over 238 frames.
+03b01Lb N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 03b01Lb is -0.534141 over 286 frames.
+03b01Wa W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 03b01Wa is -0.262114 over 216 frames.
+03b02Na N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 03b02Na is -0.466287 over 293 frames.
+03b03Nb N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 03b03Nb is -0.59654 over 362 frames.
+03b09Nc N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 03b09Nc is -0.330751 over 257 frames.
+03b09Wa W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 03b09Wa is -0.461004 over 287 frames.
+03b10Wb W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 03b10Wb is -0.344273 over 215 frames.
+08a04Nc N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 08a04Nc is -0.483807 over 201 frames.
+08a05Lc L 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 08a05Lc is -0.863546 over 417 frames.
+08a07Na L 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 08a07Na is -0.488624 over 206 frames.
+08a07Wc W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 08a07Wc is -0.208699 over 220 frames.
+08b01Na L 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 08b01Na is -0.462757 over 233 frames.
+08b01Wa W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 08b01Wa is -0.573654 over 329 frames.
+08b02La N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 08b02La is -0.709368 over 344 frames.
+08b02Nb N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 08b02Nb is -0.566382 over 304 frames.
+08b03Lc N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 08b03Lc is -0.676593 over 451 frames.
+08b09Fd F 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 08b09Fd is -0.649305 over 275 frames.
+08b10Wa W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 08b10Wa is -0.453575 over 312 frames.
+09a04Fd W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 09a04Fd is -0.0759324 over 146 frames.
+09a04La N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 09a04La is -0.828667 over 151 frames.
+09a05Wb W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 09a05Wb is -0.537687 over 338 frames.
+09a07Wd W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 09a07Wd is -1.03771 over 230 frames.
+09b03Fa W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 09b03Fa is -0.444187 over 312 frames.
+09b03Ta T 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 09b03Ta is -0.399948 over 407 frames.
+10a01Nb N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 10a01Nb is -0.513905 over 179 frames.
+10a01Wa W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 10a01Wa is -0.0123093 over 215 frames.
+10a02Fa W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 10a02Fa is -0.346295 over 150 frames.
+10a02Lb N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 10a02Lb is -0.580205 over 157 frames.
+10a04Nb N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 10a04Nb is -0.548513 over 203 frames.
+10a07Ta N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 10a07Ta is -0.61581 over 194 frames.
+10b01Fa W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 10b01Fa is -0.245504 over 241 frames.
+10b01Lb N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 10b01Lb is -0.324918 over 204 frames.
+10b02La N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 10b02La is -0.295254 over 267 frames.
+10b09Lb N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 10b09Lb is -0.380589 over 293 frames.
+10b10Lc N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 10b10Lc is -0.618108 over 225 frames.
+11a01Nd N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 11a01Nd is -0.403551 over 162 frames.
+11b02Fd W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 11b02Fd is -0.724339 over 309 frames.
+11b03Nb N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 11b03Nb is -0.466318 over 360 frames.
+11b10Wa W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 11b10Wa is -0.0929273 over 287 frames.
+12a01Fb W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 12a01Fb is -0.138212 over 184 frames.
+12a01Lb N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 12a01Lb is -0.590964 over 187 frames.
+12a02Wc W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 12a02Wc is -0.368878 over 145 frames.
+12a05Ta N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 12a05Ta is -0.751534 over 534 frames.
+12b01Ta N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 12b01Ta is -0.644829 over 398 frames.
+12b01Wa W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 12b01Wa is -0.0848907 over 222 frames.
+12b03La N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 12b03La is -0.396673 over 392 frames.
+13a02Nc N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 13a02Nc is -0.58947 over 154 frames.
+13a05Wa W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 13a05Wa is -0.161075 over 286 frames.
+13a05Wc W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 13a05Wc is -0.0956633 over 337 frames.
+13a07Na N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 13a07Na is -0.407113 over 189 frames.
+13a07Tc L 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 13a07Tc is -0.66925 over 232 frames.
+13b02Nb N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 13b02Nb is -0.467536 over 277 frames.
+13b03Na N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 13b03Na is -0.508092 over 355 frames.
+13b03Td T 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 13b03Td is -0.544659 over 496 frames.
+13b09La N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 13b09La is -0.314049 over 257 frames.
+13b10Wa W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 13b10Wa is -0.137856 over 218 frames.
+14a02Fd W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 14a02Fd is -0.662148 over 166 frames.
+14a02La L 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 14a02La is -0.405222 over 193 frames.
+14a02Wa W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 14a02Wa is -0.207576 over 199 frames.
+14a04Lb L 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 14a04Lb is -0.385909 over 192 frames.
+14a05Na N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 14a05Na is -0.413484 over 304 frames.
+14a05Wa W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 14a05Wa is -0.535256 over 399 frames.
+14a05Wb W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 14a05Wb is -0.221676 over 303 frames.
+14a07Lc L 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 14a07Lc is -0.480924 over 297 frames.
+14a07Tc T 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 14a07Tc is -0.330967 over 324 frames.
+14b01Fa W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 14b01Fa is -0.67421 over 254 frames.
+14b02Tc T 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 14b02Tc is -0.27121 over 620 frames.
+14b10Lb L 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 14b10Lb is -0.314724 over 212 frames.
+14b10Wc W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 14b10Wc is -0.331524 over 264 frames.
+15a02Wb W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 15a02Wb is -0.218775 over 179 frames.
+15a02Wd W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 15a02Wd is -0.361922 over 180 frames.
+15b02Tc T 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 15b02Tc is -0.16447 over 387 frames.
+15b02Wa W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 15b02Wa is -0.698457 over 275 frames.
+15b02Wc W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 15b02Wc is -0.541449 over 260 frames.
+16a05Tb T 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 16a05Tb is -0.751584 over 677 frames.
+16a07Td N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 16a07Td is -0.842865 over 371 frames.
+16b02Lb L 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 16b02Lb is -0.955044 over 338 frames.
+LOG (apply-cmvn[5.5.245~1-9c875]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 84 utterances, errors on 0
+16b03Ta T 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 16b03Ta is -0.789715 over 596 frames.
+16b10Lb N 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 16b10Lb is -0.785824 over 342 frames.
+16b10Td T 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 16b10Td is -1.15263 over 391 frames.
+16b10Wa W 
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance 16b10Wa is 0.143018 over 239 frames.
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:main():nnet-latgen-faster.cc:181) Time taken 1.76693s: real-time factor assuming 100 frames/sec is 0.00747528
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:main():nnet-latgen-faster.cc:184) Done 84 utterances, failed for 0
+LOG (nnet-latgen-faster[5.5.245~1-9c875]:main():nnet-latgen-faster.cc:186) Overall log-likelihood per frame is -0.499062 over 23637 frames.
+# Accounting: time=2 threads=1
+# Ended (code 0) at Fri Mar 15 02:39:12 HKT 2019, elapsed time 2 seconds

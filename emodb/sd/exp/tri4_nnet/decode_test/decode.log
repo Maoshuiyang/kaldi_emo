@@ -1,0 +1,13 @@
+steps/nnet2/decode.sh --cmd run.pl --nj 1 exp/tri1/graph data/test exp/tri4_nnet/decode_test
+steps/nnet2/decode.sh: feature type is raw
+steps/diagnostic/analyze_lats.sh --cmd run.pl --iter final exp/tri1/graph exp/tri4_nnet/decode_test
+analyze_phone_length_stats.py: WARNING: optional-silence SIL is seen only 0.0% of the time at utterance begin.  This may not be optimal.
+analyze_phone_length_stats.py: WARNING: optional-silence SIL is seen only 0.0% of the time at utterance end.  This may not be optimal.
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri4_nnet/decode_test/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.1
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri4_nnet/decode_test/log/analyze_lattice_depth_stats.log
+score best paths
+local/score.sh --cmd run.pl data/test exp/tri1/graph exp/tri4_nnet/decode_test
+local/score.sh: scoring with word insertion penalty=0.0,0.5,1.0
+score confidence and timing with sclite
+Decoding done.

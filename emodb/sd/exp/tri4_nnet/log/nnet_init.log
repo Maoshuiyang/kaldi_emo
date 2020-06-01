@@ -1,0 +1,9 @@
+# nnet-am-init exp/tri1_ali/tree data/lang/topo "nnet-init exp/tri4_nnet/nnet.config -|" exp/tri4_nnet/0.mdl 
+# Started at Fri Mar 15 02:38:17 HKT 2019
+#
+nnet-am-init exp/tri1_ali/tree data/lang/topo 'nnet-init exp/tri4_nnet/nnet.config -|' exp/tri4_nnet/0.mdl 
+nnet-init exp/tri4_nnet/nnet.config - 
+LOG (nnet-init[5.5.245~1-9c875]:main():nnet-init.cc:69) Initialized raw neural net and wrote it to -
+LOG (nnet-am-init[5.5.245~1-9c875]:main():nnet-am-init.cc:102) Initialized neural net and wrote it to exp/tri4_nnet/0.mdl
+# Accounting: time=1 threads=1
+# Ended (code 0) at Fri Mar 15 02:38:18 HKT 2019, elapsed time 1 seconds

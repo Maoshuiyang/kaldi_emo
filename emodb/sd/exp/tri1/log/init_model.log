@@ -1,0 +1,9 @@
+# gmm-init-model --write-occs=exp/tri1/1.occs exp/tri1/tree exp/tri1/treeacc data/lang/topo exp/tri1/1.mdl 
+# Started at Fri Mar 15 02:38:02 HKT 2019
+#
+gmm-init-model --write-occs=exp/tri1/1.occs exp/tri1/tree exp/tri1/treeacc data/lang/topo exp/tri1/1.mdl 
+LOG (gmm-init-model[5.5.245~1-9c875]:main():gmm-init-model.cc:271) Number of separate statistics is 25
+WARNING (gmm-init-model[5.5.245~1-9c875]:InitAmGmm():gmm-init-model.cc:55) Tree has pdf-id 0 with no stats; corresponding phone list: 1 
+LOG (gmm-init-model[5.5.245~1-9c875]:main():gmm-init-model.cc:306) Wrote model.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Mar 15 02:38:02 HKT 2019, elapsed time 0 seconds

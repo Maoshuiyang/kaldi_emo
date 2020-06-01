@@ -1,0 +1,7 @@
+<SIL> SIL
+W W
+L L
+F F
+T T
+N N
+<eps> SIL

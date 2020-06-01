@@ -1,0 +1,7 @@
+# nnet-shuffle-egs --srand=$[1+(1*0)] ark:exp/tri4_nnet/egs/egs_tmp.1.0.ark ark:exp/tri4_nnet/egs/egs.1.0.ark 
+# Started at Fri Mar 15 02:38:17 HKT 2019
+#
+nnet-shuffle-egs --srand=1 ark:exp/tri4_nnet/egs/egs_tmp.1.0.ark ark:exp/tri4_nnet/egs/egs.1.0.ark 
+LOG (nnet-shuffle-egs[5.5.245~1-9c875]:main():nnet-shuffle-egs.cc:102) Shuffled order of 10307 neural-network training examples 
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Mar 15 02:38:17 HKT 2019, elapsed time 0 seconds

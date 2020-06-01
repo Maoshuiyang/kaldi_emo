@@ -1,0 +1,2 @@
+compute-cmvn-stats --spk2utt=ark:data/train/spk2utt scp:data/train/feats.scp ark,scp:/home/fernando/kaldi_proj/emodb/sd/data/train/mfcc/cmvn_train.ark,/home/fernando/kaldi_proj/emodb/sd/data/train/mfcc/cmvn_train.scp 
+LOG (compute-cmvn-stats[5.5.245~1-9c875]:main():compute-cmvn-stats.cc:171) Done accumulating CMVN stats for 336 utterances; 0 had errors.

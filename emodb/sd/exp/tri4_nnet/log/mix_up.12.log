@@ -1,0 +1,11 @@
+# nnet-am-mixup --min-count=10 --num-mixtures=5000 exp/tri4_nnet/13.mdl exp/tri4_nnet/13.mdl 
+# Started at Fri Mar 15 02:38:32 HKT 2019
+#
+nnet-am-mixup --min-count=10 --num-mixtures=5000 exp/tri4_nnet/13.mdl exp/tri4_nnet/13.mdl 
+LOG (nnet-am-mixup[5.5.245~1-9c875]:GiveNnetCorrectTopology():mixup-nnet.cc:46) Adding SumGroupComponent to neural net.
+WARNING (nnet-am-mixup[5.5.245~1-9c875]:GetSplitTargets():model-common.cc:134) Could not split up to 5000 due to min-count = 10 (or no counts at all)
+
+LOG (nnet-am-mixup[5.5.245~1-9c875]:MixUp():mixup-nnet.cc:214) Mixed up from dimension of 16 to 1023 in the softmax layer.
+LOG (nnet-am-mixup[5.5.245~1-9c875]:main():nnet-am-mixup.cc:74) Mixed up neural net from exp/tri4_nnet/13.mdl and wrote it to exp/tri4_nnet/13.mdl
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Mar 15 02:38:32 HKT 2019, elapsed time 0 seconds

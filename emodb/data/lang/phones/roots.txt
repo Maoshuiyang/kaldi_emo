@@ -1,0 +1,6 @@
+shared split SIL
+shared split W
+shared split L
+shared split F
+shared split T
+shared split N

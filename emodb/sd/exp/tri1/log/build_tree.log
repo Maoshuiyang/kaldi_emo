@@ -1,0 +1,22 @@
+# build-tree --verbose=1 --max-leaves=250 --cluster-thresh=-1 exp/tri1/treeacc data/lang/phones/roots.int exp/tri1/questions.qst data/lang/topo exp/tri1/tree 
+# Started at Fri Mar 15 02:38:02 HKT 2019
+#
+build-tree --verbose=1 --max-leaves=250 --cluster-thresh=-1 exp/tri1/treeacc data/lang/phones/roots.int exp/tri1/questions.qst data/lang/topo exp/tri1/tree 
+LOG (build-tree[5.5.245~1-9c875]:main():build-tree.cc:104) Number of separate statistics is 25
+LOG (build-tree[5.5.245~1-9c875]:BuildTree():build-tree.cc:161) BuildTree: before building trees, map has 6 leaves.
+LOG (build-tree[5.5.245~1-9c875]:SplitDecisionTree():build-tree-utils.cc:577) DoDecisionTreeSplit: split 20 times, #leaves now 26
+LOG (build-tree[5.5.245~1-9c875]:BuildTree():build-tree.cc:187) Setting clustering threshold to smallest split 2950.75
+VLOG[1] (build-tree[5.5.245~1-9c875]:BuildTree():build-tree.cc:196) After decision tree split, num-leaves = 26, like-impr = 1.73387 per frame over 93400 frames.
+VLOG[1] (build-tree[5.5.245~1-9c875]:BuildTree():build-tree.cc:200) Including just phones that were split, improvement is 1.73387 per frame over 93400 frames.
+LOG (build-tree[5.5.245~1-9c875]:BuildTree():build-tree.cc:215) BuildTree: removed 7 leaves.
+VLOG[1] (build-tree[5.5.245~1-9c875]:ClusterEventMapToNClustersRestrictedByMap():build-tree-utils.cc:914) Number of non-empty clusters in map = 5
+VLOG[1] (build-tree[5.5.245~1-9c875]:ClusterEventMapToNClustersRestrictedByMap():build-tree-utils.cc:915) Number of non-empty clusters = 18
+LOG (build-tree[5.5.245~1-9c875]:BuildTree():build-tree.cc:231) BuildTree: Rounded num leaves to multiple of 8 by removing 3 leaves.
+VLOG[1] (build-tree[5.5.245~1-9c875]:BuildTree():build-tree.cc:256) Objf change due to clustering -0.283758 per frame.
+VLOG[1] (build-tree[5.5.245~1-9c875]:BuildTree():build-tree.cc:259) Normalizing over only split phones, this is: -0.283758 per frame.
+VLOG[1] (build-tree[5.5.245~1-9c875]:BuildTree():build-tree.cc:262) Num-leaves is now 16
+VLOG[1] (build-tree[5.5.245~1-9c875]:main():build-tree.cc:143) For pdf-id 0, low count 0
+WARNING (build-tree[5.5.245~1-9c875]:main():build-tree.cc:185) Saw no stats for following phones: 1 
+LOG (build-tree[5.5.245~1-9c875]:main():build-tree.cc:189) Wrote tree
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Mar 15 02:38:02 HKT 2019, elapsed time 0 seconds

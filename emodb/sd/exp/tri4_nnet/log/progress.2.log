@@ -1,0 +1,7 @@
+# nnet-show-progress --use-gpu=no exp/tri4_nnet/1.mdl exp/tri4_nnet/2.mdl ark:exp/tri4_nnet/egs/train_diagnostic.egs 
+# Started at Fri Mar 15 02:38:19 HKT 2019
+#
+nnet-show-progress --use-gpu=no exp/tri4_nnet/1.mdl exp/tri4_nnet/2.mdl ark:exp/tri4_nnet/egs/train_diagnostic.egs 
+WARNING (nnet-show-progress[5.5.245~1-9c875]:main():nnet-show-progress.cc:88) Parameter-dim mismatch, cannot show progress.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Mar 15 02:38:19 HKT 2019, elapsed time 0 seconds
